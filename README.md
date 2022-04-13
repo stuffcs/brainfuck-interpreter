@@ -18,3 +18,4 @@ Brainfuck - isoteric programming language. Was developed in 1993 by Urban Muller
 "[" in brainfuck is equiualent while(arr[i]){
 ---
 "]" in brainfuck is equiualent }
+---
