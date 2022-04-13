@@ -18,7 +18,7 @@ public class Program {
   }
  }
  public static void Main(string[] args) {
-  //string raw_commands = @ "+[>[<->+[>+++>[+++++++++++>][]-[<]>-]]++++++++++<]>>>>>>----.<<+++.<-..+++.<-.>>>.<<.+++.------.>-.<<+.<.";
+  //throw exception, if code of bf is null
   if (args.Length < 1) throw new ArgumentNullException("no bf file");
   string bf_filepath = args[0];
   string raw_commands = File.ReadAllText(bf_filepath);
